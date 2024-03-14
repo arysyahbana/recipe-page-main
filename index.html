@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Recipe page</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .young-serif {
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      body {
+        font-family: "Outfit", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-[#f3e6d8]">
+    <div class="grid grid-cols-1 md:mt-10">
+      <div class="bg-white sm:min-w-1/2 md:w-1/3 md:mx-auto rounded-2xl">
+        <img
+          src="assets/images/image-omelette.jpeg"
+          alt=""
+          class="block sm:hidden"
+        />
+        <div class="grid grid-cols-1 p-10">
+          <div class="hidden sm:block">
+            <img
+              src="assets/images/image-omelette.jpeg"
+              alt=""
+              class="rounded-xl"
+            />
+          </div>
+          <div class="my-10">
+            <p class="young-serif text-3xl text-[#302d2c]">
+              Simple Omelette Recipe
+            </p>
+            <p class="text-sm mt-3 text-[#5f574e]">
+              An easy and quick dish, perfect for any meal. This classic
+              omelette combines beaten eggs cooked to perfection, optionally
+              filled with your choice of cheese, vegetables, or meats.
+            </p>
+          </div>
+          <div class="bg-[#fff5fa] p-5 rounded-lg">
+            <p class="font-bold text-[#7b284f]">Preparation time</p>
+            <ul class="list-disc list-inside ml-2 text-[#7b284f]">
+              <li class="mt-2 text-sm">
+                <span class="text-[#5f574e]"
+                  ><span class="font-bold">Total</span>: Approximately 10
+                  minutes</span
+                >
+              </li>
+              <li class="mt-2 text-sm">
+                <span class="text-[#5f574e]"
+                  ><span class="font-bold">Preparation</span>: 5 minutes</span
+                >
+              </li>
+              <li class="mt-2 text-sm">
+                <span class="text-[#5f574e]"
+                  ><span class="font-bold">Cooking</span>: 5 minutes</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="my-8">
+            <p class="young-serif text-2xl text-[#854632]">Ingredients</p>
+            <ul class="list-disc list-outside text-[#854632]">
+              <li class="mt-2 text-sm ml-6">
+                <span class="text-[#5f574e] pl-2">2-3 large eggs</span>
+              </li>
+              <li class="mt-2 text-sm ml-6">
+                <span class="text-[#5f574e] pl-2">Salt, to taste</span>
+              </li>
+              <li class="mt-2 text-sm ml-6">
+                <span class="text-[#5f574e] pl-2">Pepper, to taste</span>
+              </li>
+              <li class="mt-2 text-sm ml-6">
+                <span class="text-[#5f574e] pl-2"
+                  >1 tablespoon of butter or oil</span
+                >
+              </li>
+              <li class="mt-2 text-sm ml-6">
+                <span class="text-[#5f574e] pl-2"
+                  >Optional fillings: cheese, diced vegetables, cooked meats,
+                  herbs</span
+                >
+              </li>
+            </ul>
+          </div>
+          <hr />
+          <div class="my-8">
+            <p class="young-serif text-2xl text-[#854632]">Instructions</p>
+            <ol class="list-decimal list-outside text-[#854632] font-bold">
+              <li class="mt-2 text-sm ml-6 pl-2">
+                <span class="text-[#5f574e]"
+                  >Beat the eggs:
+                  <span class="font-normal"
+                    >In a bowl, beat the eggs with a pinch of salt and pepper
+                    until they are well mixed. You can add a tablespoon of water
+                    or milk for a fluffier texture.</span
+                  ></span
+                >
+              </li>
+              <li class="mt-2 text-sm ml-6 pl-2">
+                <span class="text-[#5f574e]"
+                  >Heat the pan:
+                  <span class="font-normal"
+                    >Place a non-stick frying pan over medium heat and add
+                    butter or oil.</span
+                  ></span
+                >
+              </li>
+              <li class="mt-2 text-sm ml-6 pl-2">
+                <span class="text-[#5f574e]"
+                  >Cook the omelette:
+                  <span class="font-normal"
+                    >Once the butter is melted and bubbling, pour in the eggs.
+                    Tilt the pan to ensure the eggs evenly coat the
+                    surface.</span
+                  ></span
+                >
+              </li>
+              <li class="mt-2 text-sm ml-6 pl-2">
+                <span class="text-[#5f574e]">
+                  Add fillings (optional):
+                  <span class="font-normal"
+                    >When the eggs begin to set at the edges but are still
+                    slightly runny in the middle, sprinkle your chosen fillings
+                    over one half of the omelette.</span
+                  ></span
+                >
+              </li>
+              <li class="mt-2 text-sm ml-6 pl-2">
+                <span class="text-[#5f574e]"
+                  >Fold and serve:
+                  <span class="font-normal"
+                    >As the omelette continues to cook, carefully lift one edge
+                    and fold it over the fillings. Let it cook for another
+                    minute, then slide it onto a plate.</span
+                  ></span
+                >
+              </li>
+              <li class="mt-2 text-sm ml-6 pl-2">
+                <span class="text-[#5f574e]"
+                  >Enjoy:
+                  <span class="font-normal"
+                    >Serve hot, with additional salt and pepper if needed.</span
+                  ></span
+                >
+              </li>
+            </ol>
+          </div>
+          <hr />
+          <div class="mt-8">
+            <p class="young-serif text-2xl text-[#854632]">Nutrition</p>
+            <p class="text-sm my-3 text-[#5f574e]">
+              The table below shows nutritional values per serving without the
+              additional fillings.
+            </p>
+            <div class="grid grid-cols-2">
+              <div
+                class="border-b border-b-gray-200 py-2 px-5 text-sm text-[#5f574e]"
+              >
+                Calories
+              </div>
+              <div
+                class="border-b border-b-gray-200 py-2 px-5 text-sm font-bold text-[#854632]"
+              >
+                277kcal
+              </div>
+              <div
+                class="border-b border-b-gray-200 py-2 px-5 text-sm text-[#5f574e]"
+              >
+                Carbs
+              </div>
+              <div
+                class="border-b border-b-gray-200 py-2 px-5 text-sm font-bold text-[#854632]"
+              >
+                0g
+              </div>
+              <div
+                class="border-b border-b-gray-200 py-2 px-5 text-sm text-[#5f574e]"
+              >
+                Protein
+              </div>
+              <div
+                class="border-b border-b-gray-200 py-2 px-5 text-sm font-bold text-[#854632]"
+              >
+                20g
+              </div>
+              <div class="py-2 px-5 text-sm text-[#5f574e]">Fat</div>
+              <div class="py-2 px-5 text-sm font-bold text-[#854632]">22g</div>
+            </div>
+            <!-- <p><table class="table-auto w-full">
+              <tbody>
+                <tr class="border-b-amber-200">
+                  <td>The Sliding Mr</td>
+                  <td>Malcolm Lockyer</td>
+                </tr>
+                <tr>
+                  <td>Witchy Woman</td>
+                  <td>The Eagles</td>
+                </tr>
+                <tr>
+                  <td>Shining Star</td>
+                  <td>Earth, Wind, and Fire</td>
+                </tr>
+                <tr>
+                  <td>Shining Star</td>
+                  <td>Earth, Wind, and Fire</td>
+                </tr>
+              </tbody>
+            </table></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/arysyahbana"
+        >Ary Syahbana</a
+      >.
+    </div>
+  </body>
+</html>
